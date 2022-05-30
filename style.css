@@ -5,21 +5,25 @@
 	list-style:none;
 	outline:none;
 }
+
 /* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__logo {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -31,19 +35,23 @@
 	}
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .input_text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-item__input-wrapper {
   display: flex;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -53,9 +61,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .title {
   color: #333;
@@ -66,6 +76,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_text {
   margin: 0;
   font-size: 18px;
@@ -78,6 +89,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input_text:focus {
   color: #333;
 }
@@ -87,6 +99,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__input {
   width: 318px;
 }
@@ -101,6 +114,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .item > * {
   vertical-align: middle;
 }
@@ -108,20 +122,24 @@
 .input_checkbox {
   margin: 0 10px;
 }
+
 .label_text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .input_text {
   width: 226px;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
