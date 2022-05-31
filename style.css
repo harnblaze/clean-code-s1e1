@@ -2,8 +2,8 @@
 * {
   margin:0;
   padding: 0px;
-	list-style:none;
-	outline:none;
+  list-style:none;
+  outline:none;
 }
 
 /* Basic Style */
@@ -30,9 +30,9 @@
 
 @media (max-width:768px) {
 
-	.header {
-		text-align: center;
-	}
+  .header {
+    text-align: center;
+  }
 
 }
 
