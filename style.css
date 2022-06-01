@@ -1,8 +1,16 @@
 /* Reset Style */
-* {
+ul,
+h3 {
   margin: 0;
-  padding: 0px;
+  padding: 0;
+}
+
+li {
   list-style: none;
+}
+
+input,
+button {
   outline: none;
 }
 
@@ -38,9 +46,11 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
+  padding-top: 1em;
 }
 
-.input-text {
+.input-text,
+.label-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
