@@ -40,7 +40,7 @@
   margin: 0 auto 0;
 }
 
-.input_text {
+.input-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -75,7 +75,7 @@
   text-transform: uppercase;
 }
 
-.input_text {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -88,7 +88,7 @@
   color: #888;
 }
 
-.input_text:focus {
+.input-text:focus {
   color: #333;
 }
 
@@ -113,18 +113,18 @@
   align-items: center;
 }
 
-.input_checkbox {
+.input-checkbox {
   margin: 0 10px;
 }
 
-.label_text {
+.label-text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.input_text {
+.input-text {
   width: 226px;
 }
 
@@ -139,21 +139,21 @@
 }
 
 /* Completed */
-.completed__list .label_text {
+.completed__list .label-text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.item .input_text {
+.item .input-text {
   display: none;
 }
 
-.edit-mode .input_text {
+.edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label_text {
+.edit-mode .label-text {
   display: none;
 }
