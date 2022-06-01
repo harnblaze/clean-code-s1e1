@@ -1,9 +1,9 @@
 /* Reset Style */
 * {
-  margin:0;
+  margin: 0;
   padding: 0px;
-  list-style:none;
-  outline:none;
+  list-style: none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -28,12 +28,10 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
-
 }
 
 .main {
@@ -63,7 +61,7 @@
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -83,8 +81,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -113,10 +111,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.item > * {
-  vertical-align: middle;
 }
 
 .input_checkbox {
@@ -152,14 +146,14 @@
 
 /* Edit Task */
 .item .input_text {
-  display:none;
+  display: none;
 }
 
 .edit-mode .input_text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .label_text {
-  display:none;
+  display: none;
 }
